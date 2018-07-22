@@ -1,0 +1,438 @@
+<html>
+	<head>
+		<title>Hakka Indonesia</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/960.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+		<!--Navigation--><nav class="navbar navbar-default">
+      <div class="container_12">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="margin-top: 15px;"><img src="assets/images/hakka_logo.png" width="80" height="80"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!--
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+      -->
+          <ul class="nav navbar-nav" style="float: right;">
+            <li><a href="login.html"><img src="assets/images/member/hakka-blue.png" style="width: 50px;">&nbsp;&nbsp;&nbsp;&nbsp;<button style="border-radius: 5px;border:none;color:white;background-color: #028ABE;padding:3px 10px 3px 10px;">Masuk</button></a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right navmenu" style="margin-top: 50px;">
+            <li><a href="index.html"><b>Home <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Profil <span style="padding-left: 5px;color:#FFCD63">•</span></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="phis.html">PHIS</a></li>
+                <li><a href="hakka-cabang.html">Hakka Cabang</a></li>
+                <li><a href="pengurus.html">Pengurus</a></li>
+              </ul>
+            </li>
+            <li class="dropdown active">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b>Tentang Hakka <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="sejarah.html">Sejarah</a></li>
+                <li class="active"><a href="budaya.html">Budaya</a></li>
+                <li><a href="marga.html">Marga</a></li>
+                <li><a href="prinsip.html">Karakteristik</a></li>
+              </ul>
+            </li>
+            <li><a href="program-manfaat.html"><b>Program Manfaat <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li><a href="daftar-anggota.html"><b>Daftar Anggota <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li><a href="kerjasama.html"><b>Kerjasama & Donasi <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li><a href="blog.html"><b>Blog <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li><a href="forum.html"><b>Forum <span style="padding-left: 5px;color:#FFCD63;">•</span></b></a></li>
+            <li><a href="toko.html"><b>Toko</b></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!--Content-->
+    <div class="firstSection">
+      <div class="container_12">
+          <center class="headline" style="color:#D84448;">Budaya Hakka</center>
+          <div class="grid_12 prefix_3 suffix_3">
+            <center style="font-family: RobotoBold;font-size: 17.8px;">Apa saja identitas Hakka ?<br>Berikut ini adalah identitas-identitas Hakka<br> yang dapat kamu ketahui</center>
+            <br><br><br><br><br>
+          </div>
+      </div>
+    </div>
+    <center>
+    <div class="section" style="background-color: #D84448;height: 500px;font-family: RobotoBold;font-size: 18px;color: white;">
+      <div class="container_12">
+        <div class="grid_5 prefix_1">
+          <div style="margin-top: 150px;">
+            <img id="shanko" src="assets/images/tentang/shanko.png" style="width: 100%">
+          </div>
+          <div style="margin-top: -210px;height: 200px;">
+            <img id="shanko-detail" src="assets/images/tentang/shanko-detail.png" style="width: 100%;display: none;">
+          </div>
+          <br><br>
+          <img id="playstop" src="assets/images/tentang/playyellow.png" style="width: 60px;cursor: pointer;" onclick="play4()">
+        <audio id="audio4" src="assets/audios/lagu Shanko Hakka.mp3"></audio>
+        </div>
+        <div class="grid_7 suffix_1" style="margin-top: 100px; text-align: left;">
+          <span style="font-family: Bubblegum;font-size: 38px;color:#FFCD63">Lagu Rakyat</span>
+          <br><br>
+          <p>
+            "Shanko" /"Shange" adalah lagu rakyat Hakka yang terbentuk dari bahasa sehari-hari. Berarti nyanyian gunung. Berisikan sajak berirama berulang-ulang yang terdengar puitis. Orang-orang Hakka biasa menyanyikan lagi ini sebagai penghiburan diri saat mereka bekerja di ladang pertanian.
+          </p>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container_12">
+      <div class="grid_7 prefix_1" style="text-align: left">
+        <span style="font-family: Bubblegum;font-size: 38px;color:#028ABE;">Makanan</span><br><br>
+        <p style="font-size: 18.1px;font-family: RobotoBold;">
+          Terdapat banyak makanan khas Hakka yang telah tersebar di Indonesia. Salah satu makanan yang terkenal khas Hakka yaitu Yong Tao Fu.
+        </p>
+      </div>
+      <div class="grid_5">
+        <div style="width: 160px;margin-top: 20px;">
+          <img id="makanan" src="assets/images/tentang/yongtaofu.png" style="width: 100%; margin-left: -200px">
+        </div>
+        <div style="margin-top: -175px;;height: 150px;">
+          <img id="makanan-detail" src="assets/images/tentang/yongtaofu-detail.png" style="width: 100%;display: none; margin-right: 25px">
+        </div>
+      </div>
+    </div>
+    <div class="container_12" style="margin-top: 100px;padding-left: 100px">
+      <div class="grid_4 prefix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7606.jpg')">
+        <img src="assets/images/tentang/baksogoreng.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7608.jpg')">
+        <img src="assets/images/tentang/baksobabi.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7609.jpg')">
+        <img src="assets/images/tentang/bakmiyam.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_4 suffix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7604.jpg')">
+        <img src="assets/images/tentang/ayamsamcan.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+    </div>
+    <div class="container_12" style="margin-top: 20px;padding-left: 100px">
+      <div class="grid_4 prefix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7610.jpg')">
+        <img src="assets/images/tentang/lophoyen.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7602.jpg')">
+        <img src="assets/images/tentang/locupan.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7600.jpg')">
+        <img src="assets/images/tentang/niongkukua.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_4 suffix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7598.jpg')">
+        <img src="assets/images/tentang/yongtaofu.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+    </div>
+    <div class="container_12" style="margin-top: 20px;margin-bottom: 100px;padding-left: 100px">
+      <div class="grid_4 prefix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7599.jpg')">
+        <img src="assets/images/tentang/ayamgaram.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7607.jpg')">
+        <img src="assets/images/tentang/guilinggao.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7605.jpg')">
+        <img src="assets/images/tentang/daingmerah.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+      <div class="grid_4 suffix_2" style="cursor: pointer;" onclick="showImage('assets/images/tentang/IMG_7603.jpg')">
+        <img src="assets/images/tentang/ayamangcaw.png" style="width: 100%;height:150px;margin-bottom: 10px;">
+      </div>
+    </div>
+    </center>
+    <div class="section" style="background-color: #028ABE;height: 500px;font-family: RobotoBold;font-size: 18px;color: white;">
+      <div class="container_12">  
+        <div class="grid_7 prefix_1" style="margin-top: 100px;">  
+          <span style="font-family: Bubblegum;font-size: 38px;">Pakaian Tradisional</span><br><br>
+          <p>
+            Merupakan cerminan kondisi ekonomi masyarakat setempat yang pekerja keras dan sederhana. Karena secara tradisi orang Hakka bekerja sebagai nelayan & bertani, pakaian Hakka dirancang untuk pekerjaan berat.
+          </p>
+        </div>
+        <div class="grid_5">
+          <div style="margin-left: 75px;margin-top: 140px;width: 130px;">
+            <img id="baju" src="assets/images/tentang/shanku.png" style="width: 100%;">
+          </div>
+          <div style="margin-top: -335px;width: 340px;">
+            <img id="baju-detail" src="assets/images/tentang/shanku-detail.png" style="width: 100%;display: none;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container_12">
+      <div class="grid_12 prefix_1">
+        <span style="font-family: Bubblegum;font-size: 38px;color:#D84448;">Bahasa</span><br><br>
+      </div>
+      <div class="grid_12 prefix_2 suffix_2" style="margin-bottom: 100px;">
+        <div style="width: 300px; margin-left: 250px;margin-top: 70px;">
+          <img id="bahasa" src="assets/images/tentang/bahasa.png" style="width: 100%;">
+        </div>
+        <div style="margin-top: -220px; margin-bottom:50px;height:180px;">
+          <img id='bahasa-detail' src="assets/images/tentang/bahasa-detail.png" style="width: 100%;display: none;">
+        </div>
+      </div>
+      <div class="grid_2 prefix_1">
+        <img src="assets/images/tentang/playred.png" style="width: 100%;cursor: pointer;" onclick="play()">
+        <audio id="audio" src="assets/audios/saya orang hakka.mp4"></audio>
+      </div>
+      <div class="grid_2" style="font-family: RobotoBold;margin-top: 5px;">
+        <i>"Saya orang<br>Hakka"</i>
+      </div>
+      <div class="grid_1">
+        <img src="assets/images/tentang/playred.png" style="width: 100%;cursor: pointer;" onclick="play2()">
+        <audio id="audio2" src="assets/audios/saya tinggal di indonesia.mp4"></audio>
+      </div>
+      <div class="grid_2" style="font-family: RobotoBold;margin-top: 5px;">
+        <i>"Saya tinggal<br>di Indonesia"</i>
+      </div>
+      <div class="grid_1">
+        <img src="assets/images/tentang/playred.png" style="width: 100%;cursor: pointer;" onclick="play3()">
+        <audio id="audio3" src="assets/audios/saya senang jadi orang hakka.mp4"></audio>
+      </div>
+      <div class="grid_2" style="font-family: RobotoBold;margin-top: 5px;">
+        <i>"Saya bangga<br>jadi orang Hakka"</i>
+      </div>
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <div class="section" style="background-color: #FFCD63;height: 900px;font-family: RobotoBold;font-size: 18.1px;">
+      <div class="container_12">
+        <div class="grid_5 prefix_2" style="margin-left: 50px; margin-top: 70px; width: 300px;">
+          <img src="assets/images/tentang/tulou-icon.png" style="width: 70%;">
+        </div>
+        <div class="grid_7 suffix_1" style="margin-top: 50px;">
+          <span style="font-family: Bubblegum;font-size: 38px;color:#D84448;">Rumah Tradisional</span><br><br>
+          <p>
+            Terdapat 3 bangunan tradisional Hakka yang dibangun di periode sejarah yang berbeda & memiliki karakteristik budaya yang berbeda pula. Seiring dengan berkembang- nya jaman di Tiongkok, banyak masyarakat Hakka yang tidak lagi tinggal di rumah-rumah tradisional ini
+          </p>
+        </div>
+      </div>
+      <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner container_12" style="padding-bottom: 50px;color:white;">
+            <div class="item active">
+                <div style="height: 500px;">
+                  <br>
+                  <div class="grid_3" style="margin-top: 230px;">
+                    <span style="font-family: Bubblegum;font-size: 38px;color: #D84448;">1. Tulou</span>
+                  </div>
+                  <div class="grid_9">
+                    <div style="width: 290px;margin-left: 50px;margin-top: 150px;">
+                      <img id="tulou" src="assets/images/tentang/tulou.png" style="width: 100%;">
+                    </div>
+                    <div style="margin-top: -360px;padding-right: 58px;margin-left: 50px;">
+                      <img id="tulou-detail" src="assets/images/tentang/tulou-detail.png" style="width: 100%;display: none;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="height: 500px;">
+                  <br>
+                  <div class="grid_3" style="margin-top: 230px;">
+                    <span style="font-family: Bubblegum;font-size: 38px;color: #D84448;">2. Wei Long Lou</span>
+                  </div>
+                  <div class="grid_9">
+                    <div style="width: 290px;margin-left: 150px;margin-top: 120px;">
+                      <img id="weilonglou" src="assets/images/tentang/weilonglou.png" style="width: 100%;">
+                    </div>
+                    <div style="margin-top: -360px;padding-right: 58px;margin-left: 50px;">
+                      <img id="weilonglou-detail" src="assets/images/tentang/weilonglou-detail2.png" style="width: 100%;display: none;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+                <div style="height: 500px;">
+                  <br>
+                  <div class="grid_3" style="margin-top: 230px;">
+                    <span style="font-family: Bubblegum;font-size: 38px;color: #D84448;">3. Zou Ma Lou</span>
+                  </div>
+                  <div class="grid_9">
+                    <div style="width: 290px;margin-left: 250px;margin-top: 200px;">
+                      <img id="zoumalou" src="assets/images/tentang/zoumalou.png" style="width: 100%;">
+                    </div>
+                    <div style="margin-top: -260px;padding-right: 58px;margin-left: 50px;">
+                      <img id="zoumalou-detail" src="assets/images/tentang/zoumalou-detail.png" style="width: 100%;display: none;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+    </div>
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <!--Footer-->
+    <div class="container_12 footer"> 
+      <div class="grid_3">
+        <ul class="unstyled">
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <li>&nbsp;</li>
+          <li style="font-family: Bubblegum;font-size:26px;color:#D84448;">Ikut bergabung?</li>
+          <li>&nbsp;</li>
+          <li><button onclick="window.location.href='daftar-anggota.html'" style="background-color: #D84448; padding: 5px 10px 5px 10px;color:white;border: none;font-family: sans-serif;border-radius: 5px;">Daftar Anggota</button></li>
+        </ul>
+      </div>
+      <div class="grid_1">
+        <img src="assets/images/home/footer-pembatas.png" style="width: 100%;height: 250px;">
+      </div>
+      <div class="grid_3">
+        <ul class="unstyled" style="margin-left: -25px;">
+          <li>&nbsp;</li>
+          <li><b>Lokasi</b></li>
+          <li>&nbsp;</li>
+          <li>Batu Tulis Raya No. 35</li>
+          <li>Jakarta Pusat</li>            
+        </ul>
+      </div>
+      <div class="grid_3">
+        <ul class="unstyled" style="margin-left: -85px;">
+          <li>&nbsp;</li>
+          <li><b>Kontak Kami</b></li>
+          <li>&nbsp;</li>
+          <li>(021) 57950881 Ext. 146/147</li>
+          <li>hakkaindonesia@gmail.com</li>           
+        </ul>
+      </div>
+      <div class="grid_2" style="margin-left: -45px;">
+        <ul class="unstyled">
+          <li>&nbsp;</li>
+          <li><b>Ikuti Kami</b></li>
+          <li>&nbsp;</li>
+          <li>
+            <a href="https://www.facebook.com/hakkaindo/?ref=aymt_homepage_panel"><img src="assets/images/footer/fb.png" width="22" height="22"></img></a>&nbsp;
+            <a href="https://www.instagram.com/hakkaindo/"><img src="assets/images/footer/ig.png" width="22" height="22"></img></a>&nbsp;
+            <a href="https://www.youtube.com/channel/UCSJaddlNpg7U8lKvFQioDVA?view_as=subscriber"><img src="assets/images/footer/youtube.png" width="30" height="22"></img></a>
+          </li>           
+        </ul>
+      </div>
+      <div class="grid_5 suffix_1">
+        <ul class="unstyled" style="margin-left: -25px;">
+          <li>&nbsp;</li>
+          <li><b>Berlangganan</b></li>
+          <li>&nbsp;</li>
+          <li class="footer_email"><input type="email" name="email" placeholder="Enter your email                                        >" style="width: 100%;"></li>           
+        </ul>
+      </div>    
+  </div>
+  <div class="copyright">
+    <center>© Hakka Indonesia. All right reserved.</center>
+  </div>
+  <!--Modal-->
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <img src="" id="imagepreview" style="width: 100%;" >
+    </div>
+  </div>
+</div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script type="text/javascript">
+      $("#shanko").hover(function(){
+          $("#shanko-detail").fadeIn();
+        });
+        $("#shanko-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#baju").hover(function(){
+          $("#baju-detail").fadeIn();
+        });
+        $("#baju-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#bahasa").hover(function(){
+          $("#bahasa-detail").fadeIn();
+        });
+        $("#bahasa-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#tulou").hover(function(){
+          $("#tulou-detail").fadeIn();
+        });
+        $("#tulou-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#weilonglou").hover(function(){
+          $("#weilonglou-detail").fadeIn();
+        });
+        $("#weilonglou-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#zoumalou").hover(function(){
+          $("#zoumalou-detail").fadeIn();
+        });
+        $("#zoumalou-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+      $("#makanan").hover(function(){
+          $("#makanan-detail").fadeIn();
+        });
+        $("#makanan-detail").mouseout(function(){
+          $(this).fadeOut();
+        });
+        function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }
+        function play2(){
+       var audio = document.getElementById("audio2");
+       audio.play();
+                 }
+        function play3(){
+       var audio = document.getElementById("audio3");
+       audio.play();
+                 }
+        function play4(){
+        var img=document.getElementById("playstop");
+          var audio = document.getElementById("audio4");
+          if($("#playstop").attr('src')=="assets/images/tentang/playyellow.png"){
+          audio.play();
+          $("#playstop").attr('src','assets/images/tentang/pauseyellow.png');
+          }else{
+          audio.pause();
+          audio.currentTime=0;
+          $("#playstop").attr('src','assets/images/tentang/playyellow.png');
+          }
+         }
+      function showImage(image){
+        $('#imagepreview').attr('src', image); // here asign the image to the modal when the user click the enlarge link
+        $('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
+      }
+    </script>
+  </body>
+</html>

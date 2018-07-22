@@ -1,0 +1,316 @@
+body{
+    background-color:#f9f9f5;
+}
+@font-face {
+    font-family: Bubblegum;
+    src: url(../fonts/BubblegumSans-Regular.otf);
+}
+@font-face {
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@-webkit-keyframes MoveUpDown {
+    from {
+        padding-top: 0px;
+    }
+    to { 
+        padding-top: 50px;
+    }
+}
+::placeholder {
+    color: #D84448;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #D84448;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: #D84448;
+}
+input{
+    border: transparent!important;
+}
+.honeybee{
+	-webkit-animation: MoveUpDown 2s linear infinite;
+    animation-direction: alternate;
+}
+.beeUpDown1{
+	width:30%; 
+	-webkit-animation: MoveUpDown 2s linear infinite;
+    animation-direction: alternate;
+}
+.beeUpDown2{
+	width:30%; 
+	-webkit-animation: MoveUpDown 1.5s linear infinite;
+    animation-direction: alternate;
+}
+.beeUpDown3{
+	width:30%; 
+	-webkit-animation: MoveUpDown 1s linear infinite;
+    animation-direction: alternate;
+}
+.navmenu li a{
+	font-family: RobotoBold;
+	font-size:13px;
+}
+.navmenu>li>a{
+	line-height: 50px;
+}
+.sliderhometext{
+	font-family: Bubblegum;
+	margin-top: 15%;
+	font-size: 50px;
+	color:#D84448;
+}
+.unstyled{
+	list-style: none;
+}
+.unstyled>li>b{
+	font-family: Bubblegum;
+	font-size: 18px;
+}
+.unstyled>li{
+	font-family: RobotoBold;
+}
+.firstSection{
+	margin-top: 99px;
+	padding-bottom: 50px;
+}
+.aboutus{
+	background-image:url('../images/home/background-about.png');
+	background-size: 100% 100%;
+	color:white;
+	height: 600px;
+	padding:75px;
+}
+.headline{
+	font-size:45px;
+	font-family: Bubblegum;
+	margin-bottom: 40px;
+}
+.aboutus-content{
+	margin-top: 70px;
+}
+.aboutus-content h3{
+	font-family: Bubblegum;
+	font-size: 38px;
+}
+.aboutus-content p{
+	font-size: 18px;
+}
+#about1,#about2,#about3{
+	width:150px;
+	height:150px;
+}
+#about1:hover,#about2:hover,#about3:hover{
+	width:200px;
+	height:200px;
+}
+.event1{
+	background-image: url('../images/home/poster3.jpg');
+	background-size: 100% 100%;
+	height:367px;
+}
+.event1:hover{
+	background-image: url('../images/home/poster3-detail.jpg');
+}
+.event2{
+	background-image: url('../images/home/poster2.jpg');
+	background-size: 100% 100%;
+	height:367px;
+}
+.event2:hover{
+	background-image: url('../images/home/poster2-detail.jpg');
+}
+.event3{
+	background-image: url('../images/home/poster1.jpg');
+	background-size: 100% 100%;
+	height:367px;
+}
+.event3:hover{
+	background-image: url('../images/home/poster1-detail.jpg');
+}
+.program-manfaat-section{
+	background-color: #4fc3d4;
+	height:600px;
+}
+.program-manfaat-subline{
+	font-family: Bubblegum;
+	font-size: 35px;
+}
+.program-manfaat-textslider{
+	font-size: 18px;
+}
+.ayo-pulang-section{
+	background-image: url('../images/home/ayo-pulang-background1.jpg');
+	background-size: 100% 100%;
+	height:450px;
+	margin-bottom: 50px;
+}
+.ayo-pulang-content{
+	color:#800000;
+}
+.ayo-pulang-content>div>button{
+	background-color: #800000;
+	color: white;
+	border: none;
+	font-size: 18px;
+	padding: 10px;
+}
+.ayo-pulang-headline{
+	font-family: Bubblegum;
+	font-size: 38px;
+}
+.ayo-pulang-text{
+	font-size: 18px;
+}
+.sponsor{
+	margin-bottom: 150px;
+}
+.footer{
+	height: 300px;
+}
+.copyright{
+	color:#D84448;
+}
+.footer_email{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+}
+.footer_email{
+    padding-left: 10px;
+}
+.hexagon{
+	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.ayo-pulang-pengurus{
+	background-image: url('../images/phis/ayo-pulang.jpg');
+	background-size: 100% 100%;
+	height: 350px;
+	margin-bottom: 150px;
+}
+.ayo-pulang-pengurus>div>div>span{
+	font-family: Bubblegum;
+	font-size:45px;
+	color: white;
+}
+.ayo-pulang-pengurus>div>div>button{
+	color:#D84448;
+	padding: 5px;
+	font-size: 18px;
+}
+.pulau-list>span{
+	font-family: Bubblegum;
+	font-size: 24px;
+}
+.pulau-list ul{
+	list-style: none;
+	font-family: RobotoBold;
+	font-size: 14px;
+	line-height: 16px;
+}
+.pulau-list ul li:before{
+	height: 18px;
+	font-size: 15px;
+	line-height: 14px;
+	content: "•"; color: red;
+  display: inline-block;
+  margin-left: -2.6em;
+  margin-right: 5px;
+}
+.manfaat-text span{
+	font-size: 38px;
+	font-family: Bubblegum;
+}
+.manfaat-text p{
+	font-size: 15px;
+}
+.daftar-section input,.daftar-section select{
+	background: transparent;
+	outline: none;
+	border: none;
+  	overflow: hidden;
+  	-webkit-appearance: none;
+}
+.selectstyle:after{
+	width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  position: absolute;
+  margin-left:-20px;
+  margin-top:60px;
+  content: "";
+  z-index: 98;
+}
+.selectstyle2:after{
+	width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  position: absolute;
+  margin-left:-20px;
+  margin-top:12px;
+  content: "";
+  z-index: 98;
+}
+.selectstyle3 select{
+	background: transparent;
+	outline: none;
+	border: none;
+  	overflow: hidden;
+  	-webkit-appearance: none;
+}
+.selectstyle3:after{
+	width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #D84448;
+  position: absolute;
+  margin-left:-10px;
+  margin-top:23px;
+  content: "";
+  z-index: 98;
+}
+#migrasi-text{
+	list-style: none;
+	margin:0;
+	font-family: Bubblegum;
+	font-size: 25px;
+	color: #D4AC3F;
+	margin-top: 100px;
+}
+#migrasi-text li{
+	cursor: pointer;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+.alamat-kirim::placeholder{
+	color:white;
+	opacity: 1;
+	font-style:none;
+}
+.top-align-table tr td{
+	vertical-align: top;
+}
+.login-form input::placeholder{
+	color:white;
+}
+.profil-section input::placeholder{
+	color:grey;
+}
+.payment-form input::placeholder{
+	color:white;
+}
+.fixed {position:fixed; top:0;}
